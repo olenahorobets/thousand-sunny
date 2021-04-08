@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thousand sunny</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="#" class="logo">
+          <svg width="41" height="41" class="logo-icon">
+            <use href="./images/icons/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <div class="nav-box">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link current">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Destinations</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Partner</a></li>
+          </ul>
+          <button class="button login-btn">Login</button>
+          <button class="button register-btn">Register</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container flex-content">
+          <div>
+            <h1 class="hero-title">Explore and Travel</h1>
+            <h2 class="form-title">Holiday finder</h2>
+            <form action="#">
+              <div class="select-box">
+                <select name="Location" class="select">
+                  <option disabled selected>Location</option>
+                  <option>Africa</option>
+                  <option>North America</option>
+                  <option>South America</option>
+                  <option>Asia</option>
+                  <option>Australia</option>
+                  <option>Europe</option>
+                </select>
+                <select name="Activity" class="select">
+                  <option disabled selected>Activity</option>
+                </select>
+                <select name="Grade" class="select">
+                  <option disabled selected>Grade</option>
+                </select>
+                <input type="date" name="Date" class="select date-select" />
+              </div>
+              <button type="submit" class="button section-btn">Explore</button>
+            </form>
+          </div>
+          <img
+            src="./images/icons/thousand-sunny-01.svg"
+            alt="Thousand Sunny"
+            width="630"
+          />
+        </div>
+      </section>
+      <section class="section">
+        <div class="container flex-content">
+          <img
+            src="./images/icons/thousand-sunny-02.svg"
+            alt="Thousand Sunny"
+            width="630"
+          />
+          <div class="content-box">
+            <h2 class="section-title">A new way to explore the world</h2>
+            <p class="section-article">
+              For decades travellers have reached for Lonely Planet books when
+              looking to plan and execute their perfect trip, but now, they can
+              also let Lonely Planet Experiences lead the way
+            </p>
+            <a href="#" class="button section-btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-gallery">
+            <h2 class="section-title">Featured destinations</h2>
+            <a href="#" class="view-all-link"
+              >View all
+              <svg width="6" height="11">
+                <use href="./images/icons/sprite.svg#icon-arrow-left"></use>
+              </svg>
+            </a>
+          </div>
+          <ul class="destinations-list">
+            <li class="destinations-item">
+              <img src="./images/raja-ampat.jpg" alt="Raja Ampat" />
+              <div class="destinations-title">
+                <h3 class="destinations-location">Raja Ampat</h3>
+                <p class="destinations-country">Indonesia</p>
+              </div>
+            </li>
+            <li class="destinations-item">
+              <img src="./images/fanjingshan.jpg" alt="Fanjingshan" />
+              <div class="destinations-title">
+                <h3 class="destinations-location">Fanjingshan</h3>
+                <p class="destinations-country">China</p>
+              </div>
+            </li>
+            <li class="destinations-item">
+              <img src="./images/vevey.jpg" alt="Vevey" />
+              <div class="destinations-title">
+                <h3 class="destinations-location">Vevey</h3>
+                <p class="destinations-country">Switzerland</p>
+              </div>
+            </li>
+            <li class="destinations-item">
+              <img src="./images/skadar.jpg" alt="Skadar" />
+              <div class="destinations-title">
+                <h3 class="destinations-location">Skadar</h3>
+                <p class="destinations-country">Montenegro</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container flex-content">
+          <div class="content-box">
+            <h2 class="section-title">Guides by Thousand Sunny</h2>
+            <p class="section-article">
+              Packed with tips and advice from our on-the-ground experts, our
+              city guides app (iOS and Android) is the ultimate resource before
+              and during a trip.
+            </p>
+            <a href="#" class="button section-btn">Download</a>
+          </div>
+          <img
+            src="./images/icons/thousand-sunny-03.svg"
+            alt="Thousand Sunny"
+            width="630"
+          />
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Testimonials</h2>
+          <div class="slideshow">
+            <div id="one" class="slider-item flex-content">
+              <div class="content-box">
+                <ul class="rating-star-list">
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="testimonials-comment">
+                  “Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+                  dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit
+                  sit amet turpis nec”
+                </p>
+                <h3 class="testimonials-name">Edward Newgate</h3>
+                <p class="testimonials-profession">Founder Circle</p>
+              </div>
+              <img
+                src="./images/edward-newgate.jpg"
+                alt="Edward Newgate"
+                class="testimonials-image"
+              />
+            </div>
+            <div id="two" class="slider-item flex-content">
+              <div class="content-box">
+                <ul class="rating-star-list">
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                  <li class="rating-star-item">
+                    <svg width="25" height="24" class="rating-star-icon">
+                      <use href="./images/icons/sprite.svg#icon-star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <p class="testimonials-comment">
+                  “Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+                  dignissimos.”
+                </p>
+                <h3 class="testimonials-name">Lorem, ipsum.</h3>
+                <p class="testimonials-profession">Lorem, ipsum.</p>
+              </div>
+              <img
+                src="./images/lorem-ipsum.jpg"
+                alt="Lorem, ipsum."
+                class="testimonials-image"
+              />
+            </div>
+            <div class="slider-control-links">
+              <a href="#one" class="slider-control-link">&#8249;</a>
+              <a href="#two" class="slider-control-link">&#8250;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-gallery">
+            <h2 class="section-title">Trending stories</h2>
+            <a href="#" class="view-all-link"
+              >View all
+              <svg width="6" height="11">
+                <use href="./images/icons/sprite.svg#icon-arrow-left"></use>
+              </svg>
+            </a>
+          </div>
+          <ul class="stories-list">
+            <li class="stories-item">
+              <img
+                src="./images/trending-stories-01.jpg"
+                alt="Helaing holidays"
+                class="stories-image"
+              />
+              <h3 class="stories-article-title">
+                The many benefits of taking a healing holiday
+              </h3>
+              <p class="stories-article-preview">
+                ‘Helaing holidays’ are on the rise tohelp maximise your health
+                and happines...
+              </p>
+              <a href="#" class="stories-article-link">Read more</a>
+            </li>
+            <li class="stories-item">
+              <img
+                src="./images/trending-stories-02.jpg"
+                alt="restaurant"
+                class="stories-image"
+              />
+              <h3 class="stories-article-title">
+                The best Kyoto restaurant to try Japanese food
+              </h3>
+              <p class="stories-article-preview">
+                From tofu to teahouses, here’s our guide to Kyoto’s best
+                restaurants to visit...
+              </p>
+              <a href="#" class="stories-article-link">Read more</a>
+            </li>
+            <li class="stories-item">
+              <img
+                src="./images/trending-stories-03.jpg"
+                alt="Chichen Itza"
+                class="stories-image"
+              />
+              <h3 class="stories-article-title">
+                Skip Chichen Itza and head to this remote Yucatan
+              </h3>
+              <p class="stories-article-preview">
+                It’s remote and challenging to get, but braving the jungle and
+                exploring these ruins without the...
+              </p>
+              <a href="#" class="stories-article-link">Read more</a>
+            </li>
+            <li class="stories-item">
+              <img
+                src="./images/trending-stories-04.jpg"
+                alt="surf"
+                class="stories-image"
+              />
+              <h3 class="stories-article-title">
+                Surf’s up at these beginner spots around the world
+              </h3>
+              <p class="stories-article-preview">
+                If learning to surf has in on your to-do list for a while, the
+                good news is: it’s never too late...
+              </p>
+              <a href="#" class="stories-article-link">Read more</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-background">
+      <div class="container">
+        <div class="footer-box">
+          <div>
+            <a href="#" class="logo">
+              <svg width="44" height="44" class="logo-icon">
+                <use href="./images/icons/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <p class="footer-text">
+              Plan and book your perfect trip with<br />
+              expert advice, travel tips destination<br />
+              information from us
+            </p>
+            <p class="copyright">
+              &#xA9;2020 Thousand Sunny. All rights reserved
+            </p>
+          </div>
+          <ul>
+            <li><a href="#" class="main-menu-link">Destinations</a></li>
+            <li><a href="#" class="menu-link">Africa</a></li>
+            <li><a href="#" class="menu-link">Antarctica</a></li>
+            <li><a href="#" class="menu-link">Asia</a></li>
+            <li><a href="#" class="menu-link">Europe</a></li>
+            <li><a href="#" class="menu-link">America</a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="main-menu-link">Shop</a></li>
+            <li><a href="#" class="menu-link">Destination Guides</a></li>
+            <li><a href="#" class="menu-link">Pictorial & Gifts</a></li>
+            <li><a href="#" class="menu-link">Special Offers</a></li>
+            <li><a href="#" class="menu-link">Delivery Times</a></li>
+            <li><a href="#" class="menu-link">FAQs</a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="main-menu-link">Interests</a></li>
+            <li><a href="#" class="menu-link">Adventure Travel</a></li>
+            <li><a href="#" class="menu-link">Art And Culture</a></li>
+            <li><a href="#" class="menu-link">Wildlife And Nature</a></li>
+            <li><a href="#" class="menu-link">Family Holidays</a></li>
+            <li><a href="#" class="menu-link">Food And Drink</a></li>
+          </ul>
+        </div>
+        <ul class="social-links-list">
+          <li class="social-links-item">
+            <a href="#"
+              ><svg width="25" height="25" class="social-links-icon">
+                <use href="./images/icons/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a href="#"
+              ><svg width="25" height="25" class="social-links-icon">
+                <use href="./images/icons/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a href="#"
+              ><svg width="25" height="25" class="social-links-icon">
+                <use href="./images/icons/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a href="#"
+              ><svg width="25" height="25" class="social-links-icon">
+                <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-links-item">
+            <a href="#"
+              ><svg width="25" height="25" class="social-links-icon">
+                <use href="./images/icons/sprite.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
