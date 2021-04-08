@@ -25,6 +25,7 @@ img {
 .logo:focus .logo-icon {
   border-radius: 50%;
   box-shadow: 0px 0px 50px 0px #19b880;
+  box-shadow: 0px 0px 50px 0px #1abe84;
 }
 .nav-box {
   display: flex;
